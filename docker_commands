@@ -1,0 +1,5 @@
+docker build -t my-python-app .
+
+docker run -it --rm --name my-running-app my-python-app
+
+docker run -it --rm --name my-running-app --memory="4g" --cpus="2" my-python-app
