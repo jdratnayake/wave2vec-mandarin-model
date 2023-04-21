@@ -8,7 +8,7 @@ def convert(inputfile, outfile):
     sf.write(outfile, data, target_sr)
 
 examples = [
-    "Easy Mandarin 2 - What do you like about Taiwan?.wav",
+    "Finding Friends in Taiwan | Easy Mandarin 85.wav",
 ]
 
 for file_path in examples:

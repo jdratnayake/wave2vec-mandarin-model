@@ -47,6 +47,7 @@ processor = Wav2Vec2Processor.from_pretrained(model_name, use_auth_token=api_tok
 
 examples = [
     "Easy Mandarin 2 - What do you like about Taiwan.wav",
+    "Finding Friends in Taiwan | Easy Mandarin 85.wav",
 ]
 
 wav_file_path = examples[0]
